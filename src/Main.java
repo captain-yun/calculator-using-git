@@ -49,7 +49,7 @@ public class Main {
     }
 
     private static void minus(int a, int b) {
-        System.out.println(a + " + " + b + " = " + (a + b));
+        System.out.println(a + " - " + b + " = " + (a - b));
     }
 
     private static void multiply(int a, int b) {
@@ -61,6 +61,6 @@ public class Main {
     }
 
     private static void modulo(int a, int b) {
-        
+        System.out.println(a + " % " + b + " = " + (a % b));
     }
 }
